@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wastewater Treatment</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa; /* Very light color */
+            color: #495057;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            scroll-behavior: smooth;
+            background-image: url('https://static9.depositphotos.com/1104991/1091/i/450/depositphotos_10917326-stock-photo-modern-urban-wastewater-treatment-plant.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        section, footer {
+            margin: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center-align text in sections and footer */
+            transition: transform 0.3s;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        header {
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+           
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1em;
+            background-color: #343a40;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #495057;
+        }
+
+        h2 {
+            color: #007bff;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        h2::after {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 50%;
+            margin: 10px auto;
+            background: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #495057;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .case-study {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .case-study img {
+            max-width: 80%;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+
+        .case-study img:hover {
+            transform: scale(1.1);
+        }
+
+        form {
+            max-width: 1392px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        form:hover {
+            transform: scale(1.02);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #495057;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 5em;
+            position: static;
+            bottom: 0;
+            width: 100%;
+        }
+        h1{
+    font-size:50px;
+}
+    </style>
+</head>
+
+<body background="">
+    <!-- Header Section -->
+    <header>
+        <h1> <img src="logo2.png" width="10%">AquaCure</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="Waste water treatment 8.html">Home</a>
+        <a href="treatment.html">Treatment Process</a>
+        <a href="technology.html">Technologies</a>
+        <a href="benifits.html">Benefits</a>
+        <a href="casestudy.html">Case Studies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Our Wastewater Treatment Website</h2>
+        <img src="800.jpg" alt="Home Image" width="50%">
+        <p>At Wastewater Treatment Solutions, we are committed to pioneering sustainable water management practices. Explore our website to learn about our innovative solutions and how we contribute to a cleaner and healthier environment.</p>
+        <p>Join us in the journey towards responsible water stewardship.</p>
+    </section>
+
+    <!-- Treatment Process Section -->
+    <section id="process">
+        <h2>Treatment Process</h2>
+        <img src="wastewater treatment.webp" alt="Treatment Process Image" width="50%">
+        <p>Our wastewater treatment process is a multi-stage approach designed to address diverse challenges and meet the highest standards. Understanding the importance of each stage is crucial to achieving our goal of environmental conservation:</p>
+        <ul>
+            <li><strong>Collection:</strong> Wastewater is gathered from various sources, including residential, industrial, and commercial areas.</li>
+            <li><strong>Screening:</strong> Large objects and debris are removed to prevent damage to equipment and pipelines.</li>
+            <li><strong>Primary Treatment:</strong> Physical processes, such as sedimentation, separate suspended solids from the water.</li>
+            <li><strong>Secondary Treatment:</strong> Biological processes break down organic matter through the action of microorganisms.</li>
+            <li><strong>Tertiary Treatment:</strong> Advanced processes, including filtration and disinfection, ensure the highest quality treated water before release.</li>
+        </ul>
+        <p>Our commitment to excellence in wastewater treatment not only meets regulatory standards but also contributes to the overall health of the environment.</p>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies">
+        <h2>Technologies</h2>
+        <img src="machine.webp" alt="Technologies Image" width="50%">
+        <p>Explore the cutting-edge technologies that drive our wastewater treatment solutions:</p>
+        <ul>
+            <li><strong>Membrane Bioreactors (MBRs):</strong> This technology combines biological treatment with membrane separation, ensuring efficient removal of solids and microorganisms.</li>
+            <li><strong>UV Disinfection:</strong> Ultraviolet light is employed for effective disinfection, ensuring treated water meets stringent quality standards.</li>
+            <li><strong>Advanced Oxidation Processes (AOPs):</strong> These processes break down persistent organic pollutants, enhancing water quality and safety.</li>
+            <li><strong>Smart Monitoring Systems:</strong> Utilizing advanced sensors and data analytics, we optimize the treatment process, minimize environmental impact, and ensure operational efficiency.</li>
+        </ul>
+        <p>These images showcase our state-of-the-art facilities and highlight the technology-driven approach we take to wastewater treatment.</p>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits">
+        <h2>Benefits</h2>
+        <img src="benif.jpg" alt="Benefits Image" width="50%">
+        <p>Choosing our wastewater treatment solutions comes with a range of benefits for both the environment and your community:</p>
+        <ul>
+            <li><strong>Environmental Conservation:</strong> Our advanced treatment processes minimize the environmental impact of wastewater discharge, preserving ecosystems and aquatic life.</li>
+            <li><strong>Public Health:</strong> By ensuring treated water meets or exceeds regulatory standards, we contribute to the overall health and well-being of the community.</li>
+            <li><strong>Sustainability:</strong> Our commitment to sustainable practices aligns with global efforts to conserve water resources for future generations.</li>
+            <li><strong>Cost-Effective Solutions:</strong> Our tailored solutions optimize operational efficiency, providing cost-effective wastewater treatment for municipalities and industries.</li>
+        </ul>
+        <p>Partner with us to experience the numerous advantages of responsible wastewater management.</p>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies">
+        <h2>Case Studies</h2>
+        <p>Explore real-world examples of our successful wastewater treatment implementations:</p>
+        <div class="case-study">
+            <img src="urban.jpg" alt="Case Study 1" width="40%">
+            <p><strong>Urban Renewal Project:</strong> Learn how our solutions played a crucial role in transforming urban wastewater into a valuable resource for irrigation and green spaces.</p>
+        </div>
+        <div class="case-study">
+            <img src="manufacture.png" alt="Case Study 2" width="30%">
+            <p><strong>Industrial Sustainability:</strong> Discover how our customized wastewater treatment systems have helped industries achieve sustainability goals while meeting regulatory requirements.</p>
+        </div>
+        <div class="case-study">
+            <img src="kk.png" alt="Case Study 3" width="60%">
+            <p><strong>Rural Community Development:</strong> Read about our initiatives to bring sustainable wastewater solutions to rural communities, improving sanitation and protecting water sources.</p>
+        </div>
+        <p>These case studies showcase the versatility and effectiveness of our wastewater treatment strategies.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for more information or to discuss your wastewater treatment needs. Our dedicated team is ready to provide personalized and sustainable solutions tailored to your requirements.</p>
+
+        <!-- Interactive form for user inquiries -->
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <address>
+            <strong>Wastewater Treatment Solutions</strong><br>
+            123 Treatment Avenue<br>
+            Cityville, WT 56789<br>
+            <a href="mailto:info@wastewatertreatment.com">info@wastewatertreatment.com</a>
+        </address>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Wastewater Treatment Solutions</p>
+    </footer>
+</body>
+
+</html>
